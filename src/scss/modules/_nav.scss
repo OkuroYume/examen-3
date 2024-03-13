@@ -1,0 +1,44 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.nav-button {
+  border-radius: 50px;
+  border: 2px solid var(--Bleu, #473fef);
+  background: #fff;
+  padding: 8px 20px;
+  display: inline-flex;
+  margin-left: 20px;
+  color: #473fef;
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.nav a {
+  text-decoration: none;
+}
+
+.nav-button:hover {
+  background: #4ce9cd;
+  color: #473fef;
+  transition: 0.2s;
+}
+
+.nav-logo {
+  width: 124px;
+}
+
+.nav-branding {
+  display: flex;
+}
+
+.nav h1 {
+  color: #473fef;
+  font-size: 25px;
+  font-weight: 800;
+  margin-left: 15px;
+  margin-top: 20px;
+}
