@@ -1,0 +1,49 @@
+.form-small {
+  width: 504px;
+  height: 355px;
+  border-radius: 21px;
+  border: 2px solid #473fef;
+  background: #fff;
+  margin-bottom: 54px;
+}
+
+.form h2 {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: normal;
+  background-color: #473fef;
+  border-radius: 18px 18px 0 0;
+  padding: 13px 0 13px 37px;
+}
+
+.form-recherche {
+  border: none;
+  color: #473fef;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 21px;
+  padding: 10px 185 10px 18px;
+  background: #e5e4ff;
+  margin: 20px 0 0 20px;
+}
+
+.form-verb {
+  background-color: #fff;
+  border-radius: 50px;
+  border: 2px solid var(--Bleu, #473fef);
+  display: flex;
+  width: 206px;
+  margin: 23px 17px 11px 20px;
+  padding: 8px 20px 8px 20px;
+  align-items: center;
+  color: #473fef;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.form-verb:hover {
+  background: #4ce9cd;
+
+  transition: 0.2s;
+}
