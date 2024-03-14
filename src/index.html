@@ -46,29 +46,70 @@
                 name="recherche"
                 placeholder="Ajouter un verbe"
               />
-              <div class="form-verb">
-                Avoir <img src="/img/x_symbol.svg" alt="x" />
-              </div>
-              <div class="form-verb">
-                Aller<img src="/img/x_symbol.svg" alt="x" />
-              </div>
-              <div class="form-verb">
-                Être<img src="/img/x_symbol.svg" alt="x" />
-              </div>
-              <div class="form-verb">
-                Courir<img src="/img/x_symbol.svg" alt="x" />
-              </div>
-              <div class="form-verb">
-                Faire<img src="/img/x_symbol.svg" alt="x" />
-              </div>
-              <div class="form-verb">
-                Manger<img src="/img/x_symbol.svg" alt="x" />
+              <div class="form-verb-box">
+                <div class="form-verb">
+                  Avoir <img src="/img/x_symbol.svg" alt="x" />
+                </div>
+                <div class="form-verb">
+                  Aller<img src="/img/x_symbol.svg" alt="x" />
+                </div>
+                <div class="form-verb">
+                  Être<img src="/img/x_symbol.svg" alt="x" />
+                </div>
+                <div class="form-verb">
+                  Courir<img src="/img/x_symbol.svg" alt="x" />
+                </div>
+                <div class="form-verb">
+                  Faire<img src="/img/x_symbol.svg" alt="x" />
+                </div>
+                <div class="form-verb">
+                  Manger<img src="/img/x_symbol.svg" alt="x" />
+                </div>
               </div>
             </div>
           </div>
           <div class="form">
             <div class="form-small">
               <h2>Options</h2>
+              <h3>Type</h3>
+              <div class="form-type">
+                <input name="options" id="normal" type="radio" />
+                <label for="normal">Normal</label>
+                <input name="options" id="temps" type="radio" />
+                <label for="temps">Trouver mode + temps</label>
+              </div>
+              <h3>Nombre de questions</h3>
+              <div class="number">
+                <select id="country" name="country">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                  <option value="11">11</option>
+                  <option value="12">12</option>
+                  <option value="13">13</option>
+                  <option value="14">14</option>
+                  <option value="15">15</option>
+                  <option value="16">16</option>
+                  <option value="17">17</option>
+                  <option value="18">18</option>
+                  <option value="19">19</option>
+                  <option value="20">20</option>
+                </select>
+                <h3>Options d'impression</h3>
+                <label class="switch">
+                  <input type="checkbox" />
+                  <div class="switch-wrapper">
+                    <div class="switch-inner"></div>
+                  </div>
+                </label>
+              </div>
             </div>
           </div>
         </div>
