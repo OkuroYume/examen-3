@@ -43,7 +43,6 @@
 
 .form-verb:hover {
   background: #4ce9cd;
-
   transition: 0.2s;
 }
 
@@ -76,7 +75,7 @@ input:checked + .switch-wrapper {
   height: 16px;
   border-radius: 8px;
   background: #473fef;
-  transition: ease-in 0.2s;
+  transition: ease-in 0.1s;
 }
 
 input:checked + .switch-wrapper .switch-inner {
@@ -86,4 +85,72 @@ input:checked + .switch-wrapper .switch-inner {
 
 .switch input {
   display: none;
+}
+
+h3 {
+  color: #473fef;
+  font-size: 19px;
+  font-weight: 600;
+}
+select {
+  width: 83px;
+  height: 42px;
+  border-radius: 10px;
+  border: 2px solid #473fef;
+  background-color: white;
+  color: #473fef;
+  font-size: 18px;
+  font-weight: 500;
+  padding-left: 20px;
+}
+
+.form-type {
+  border-radius: 10px;
+  border: 2px solid #473fef;
+  width: 333px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.form-type input {
+  display: none;
+}
+
+.form-type-inner {
+  color: #473fef;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px 22px 10px 13px;
+  transition: ease-in 0.1s;
+}
+
+.form-type-inner.t-first {
+  border-right: 2px solid #473fef;
+}
+
+.form-type input:checked + .form-type-inner {
+  background-color: #4ce9cd;
+}
+
+.form-type-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 29px 39px 0 37px;
+}
+
+.form-number-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 55px 39px 0 37px;
+}
+
+.form-option-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 61px 39 100px 37px;
 }

@@ -71,16 +71,24 @@
           <div class="form">
             <div class="form-small">
               <h2>Options</h2>
-              <h3>Type</h3>
-              <div class="form-type">
-                <input name="options" id="normal" type="radio" />
-                <label for="normal">Normal</label>
-                <input name="options" id="temps" type="radio" />
-                <label for="temps">Trouver mode + temps</label>
+              <div class="form-type-wrapper">
+                <h3>Type</h3>
+                <div class="form-type">
+                  <label for="normal"
+                    ><input name="options" id="normal" type="radio" />
+                    <div class="form-type-inner t-first">Normal</div></label
+                  >
+                  <label for="temps">
+                    <input name="options" id="temps" type="radio" />
+                    <div class="form-type-inner">
+                      Trouver mode + temps
+                    </div></label
+                  >
+                </div>
               </div>
-              <h3>Nombre de questions</h3>
-              <div class="number">
-                <select id="country" name="country">
+              <div class="form-number-wrapper">
+                <h3>Nombre de questions</h3>
+                <select id="form-number" name="form-number">
                   <option value="1">1</option>
                   <option value="2">2</option>
                   <option value="3">3</option>
@@ -102,6 +110,8 @@
                   <option value="19">19</option>
                   <option value="20">20</option>
                 </select>
+              </div>
+              <div class="form-option-wrapper">
                 <h3>Options d'impression</h3>
                 <label class="switch">
                   <input type="checkbox" />
