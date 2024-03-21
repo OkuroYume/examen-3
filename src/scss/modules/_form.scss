@@ -56,8 +56,8 @@
 
 .switch-wrapper {
   display: inline-block;
-  width: 50px;
-  height: 24px;
+  width: 48px;
+  height: 21px;
   padding: 2px;
   border-radius: 15px;
   background: white;
@@ -71,8 +71,8 @@ input:checked + .switch-wrapper {
 }
 
 .switch-inner {
-  width: 16px;
-  height: 16px;
+  width: 13px;
+  height: 13px;
   border-radius: 8px;
   background: #473fef;
   transition: ease-in 0.1s;
@@ -153,4 +153,30 @@ select {
   justify-content: space-between;
   align-items: center;
   margin: 61px 39 100px 37px;
+}
+
+.form-verb-wrapper {
+  margin: 22px 37px 50px 37px;
+}
+
+.form-verb-settings {
+  display: flex;
+  width: 50%;
+  margin: 33px 0 0 0;
+}
+
+.form-verb-settings p {
+  color: #473fef;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+.form-verb-settings-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form-mes-temps {
+  margin: 85px 0 40px 0;
 }
