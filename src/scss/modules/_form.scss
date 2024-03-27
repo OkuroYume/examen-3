@@ -162,7 +162,7 @@ select {
 .form-verb-settings {
   display: flex;
   width: 50%;
-  margin: 33px 0 0 0;
+  margin: 35px 0 0 0;
 }
 
 .form-verb-settings p {
@@ -178,5 +178,15 @@ select {
 }
 
 .form-mes-temps {
-  margin: 85px 0 40px 0;
+  margin: 75px 0 15px 0;
+}
+
+hr {
+  stroke-width: 2px;
+  color: #473fef;
+}
+
+.form-arrow {
+  margin-bottom: 20px;
+  margin-left: 470px;
 }
