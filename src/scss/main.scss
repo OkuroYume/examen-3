@@ -1,6 +1,16 @@
+$grid-gutter-width: 58px;
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1400px,
+);
 @import "base";
 @import "layout";
 @import "modules/example";
 @import "bootstrap/scss/bootstrap-grid";
 @import "modules/nav";
 @import "modules/form";
+@import "modules/footer";
+@import "modules/sidebar";

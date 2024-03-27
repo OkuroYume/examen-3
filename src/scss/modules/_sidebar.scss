@@ -1,0 +1,28 @@
+.sidebar {
+  background-color: #473fef;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 92px;
+  border-left: 2px solid #473fef;
+}
+
+.sidebar img {
+  width: 40px;
+  margin: 40px 26px 105px 26px;
+}
+
+.sidebar-menu p {
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 30px;
+  text-align: center;
+}
+
+.sidebar-menu p:hover {
+  color: #473fef;
+  background-color: white;
+  transition: 0.3s;
+}
