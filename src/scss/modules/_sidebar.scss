@@ -40,7 +40,7 @@
   background: #fff;
   width: 208px;
   height: 219px;
-  flex-shrink: 0;
+  padding: 18px 16px 23px 16px;
 }
 
 .sidebar-menu:hover .sidebar-menu-content {
@@ -50,10 +50,34 @@
 .sidebar-menu-content a {
   display: block;
   text-decoration: none;
-  color: black;
-  padding: 5px 0;
+  padding: 5px;
+  color: #473fef;
+  font-family: Inter;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 20px;
+}
+
+.sidebar-menu-tittle {
+  color: #473fef;
+  font-size: 20px;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 7px;
+  padding: 5px 5px 0 5px;
+}
+
+.sidebar-number {
+  padding: 1px 15px 1px 15px;
+  border-radius: 29px;
+  background: #4ce9cd;
 }
 
 .sidebar-menu-content a:hover {
-  background-color: #f0f0f0;
+  background-color: #4ce9cd;
+  border-radius: 20px;
+  padding: 5px;
 }
