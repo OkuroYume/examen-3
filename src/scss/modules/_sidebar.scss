@@ -60,6 +60,12 @@
   margin-top: 20px;
 }
 
+.sidebar-menu-content a:hover {
+  background-color: #4ce9cd;
+  border-radius: 20px;
+  padding: 5px;
+}
+
 .sidebar-menu-tittle {
   color: #473fef;
   font-size: 20px;
@@ -74,10 +80,4 @@
   padding: 1px 15px 1px 15px;
   border-radius: 29px;
   background: #4ce9cd;
-}
-
-.sidebar-menu-content a:hover {
-  background-color: #4ce9cd;
-  border-radius: 20px;
-  padding: 5px;
 }
