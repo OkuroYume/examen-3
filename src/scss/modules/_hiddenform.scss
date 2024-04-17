@@ -1,0 +1,21 @@
+.hiddenform-menu {
+  max-height: 0;
+  pointer-events: none;
+  transition: opacity 0.1s;
+  overflow: hidden;
+  transition: max-height 0.3s;
+}
+
+.hiddenform-menu.is-active {
+  max-height: 800px;
+  pointer-events: auto;
+}
+
+.hiddenform-arrow {
+  margin-bottom: 20px;
+  margin-left: 470px;
+}
+
+.hiddenform-arrow.is-active {
+  transition: rotate(180deg);
+}
